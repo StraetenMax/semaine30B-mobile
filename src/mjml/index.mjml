@@ -48,7 +48,10 @@
   <mj-body background-color="#f1f0f0" width="700px">
     <mj-section padding="0">
       <mj-column>
-        <mj-text align="center"><a style="color:#4d4d4d;font-size:10px;font-weight:500;line-height:12px" href="{{ mirror}}">Voir la version en ligne</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a style="color:#4d4d4d;font-size:10px;font-weight:500;line-height:12px;" href="{{ unsubscribe }}">Se désinscrire de la liste de diffusion</a></mj-text>
+        <mj-image src="./images/netgearWhite.png"></mj-image>
+      </mj-column>
+      <mj-column>
+        <mj-text>version en ligne</mj-text>
       </mj-column>
     </mj-section>
     <mj-section>
