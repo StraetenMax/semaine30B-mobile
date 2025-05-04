@@ -136,5 +136,25 @@
         <mj-button href="#">j'en profite</mj-button>
       </mj-column>
     </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text>... et bien plus encore sur le Store NETGEAR.</mj-text>
+        <mj-button>Découvrir</mj-button>
+        <mj-text>* Offre valable jusqu'au 23 Aout inclus et dans la limite des stocks disponibles sur la catégorie « Routeurs & Hotspots 4G/ 5G », et hors sélection suivante : MR5200-100EUS et 6000460. Offre cumulable avec les promos en cours.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image src="./images/netgearWhite.png"></mj-image>
+      </mj-column>
+      <mj-column>
+        <mj-social>
+          <mj-social-element src="./images/facebook.png"></mj-social-element>
+          <mj-social-element src="./images/instagram.png"></mj-social-element>
+          <mj-social-element src="./images/twitter.png"></mj-social-element>
+          <mj-social-element src="./images/youtube                                                                         .png"></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
