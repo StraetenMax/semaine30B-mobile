@@ -27,7 +27,8 @@ mjml
             //- Black colors text
             mj-class(name="cT1" color="#1a1a1a")/
             mj-class(name="cT0" color="#4d4d4d")/
-            mj-class(name="cB" color="#ffffff")/
+            mj-class(name="cTW" color="#ffffff")/
+            mj-class(name="bgW" background-color="#ffffff")/
             //- Colors
             mj-class(name="cB0" color="#1f3c90")/
             mj-class(name="bgB0" background-color="#1f3c90")/
@@ -48,20 +49,17 @@ mjml
         //- content
         block content
         //- bloc header
-        //-block header
+        block header
             include ../includes/_header
-        //- bloc article
-        //-block article
-            include ../includes/_article
-        //- bloc breves
-        //-block breves
-            include ../includes/_breves
-        //- bloc reseaux sociaux
-        //-block resociaux
-            include ../includes/_resociaux
+        //- bloc argument
+        block arg
+            include ../includes/_arg
+        //- bloc produits
+        block prod
+            include ../includes/_prod
         //- bloc footer
-        //-block footer
+        block footer
             include ../includes/_footer
         //- bloc reglement
-        block reglement
-            include ../includes/_reglement
+        block reg
+            include ../includes/_reg

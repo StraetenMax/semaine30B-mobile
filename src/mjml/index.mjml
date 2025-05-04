@@ -1,0 +1,99 @@
+
+<mjml>
+  <mj-head>
+    <mj-title>semaine 30B mobilité</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&amp;display=swap"></mj-font>
+    <mj-font name="fontAwesome" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <mj-raw>
+      <meta charset="UTF-8">
+      <meta name='color-scheme' content='light'/>
+      <meta name='supported-color-schemes' content='light'/>
+      <meta name="format-detection" content="telephone=no"/>
+      <meta name="format-detection" content="date=no"/>
+      <meta name="format-detection" content="address=no"/>
+      <meta name="format-detection" content="email=no"/>
+    </mj-raw>
+    <mj-attributes>
+      <mj-all font-family="Roboto, Arial, Helvetica,sans serif"/>
+      <mj-class name="T36-900" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="36px" line-height="36px" font-weight="900"/>
+      <mj-class name="T24-700" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="24px" line-height="28px" font-weight="700"/>
+      <mj-class name="T24-300" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="24px" line-height="28px" font-weight="300"/>
+      <mj-class name="T18-700" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="18px" line-height="22px" font-weight="700"/>
+      <mj-class name="T16-700" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="700"/>
+      <mj-class name="T16-500" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="500"/>
+      <mj-class name="T16-400" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="400"/>
+      <mj-class name="T13-700" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="13px" line-height="17px" font-weight="700"/>
+      <mj-class name="T13-400" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="13px" line-height="17px" font-weight="400"/>
+      <mj-class name="T10-300" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="10px" line-height="12px" font-weight="300"/>
+      <mj-class name="cT1" color="#1a1a1a"/>
+      <mj-class name="cT0" color="#4d4d4d"/>
+      <mj-class name="cTW" color="#ffffff"/>
+      <mj-class name="bgW" background-color="#ffffff"/>
+      <mj-class name="cB0" color="#1f3c90"/>
+      <mj-class name="bgB0" background-color="#1f3c90"/>
+      <mj-class name="cB-1" color="#787fbd"/>
+      <mj-class name="bgB-1" background-color="#787fbd"/>
+      <mj-class name="cB+1" color="#423f64"/>
+      <mj-class name="bgB+1" background-color="#423f64"/>
+      <mj-class name="cB+2" color="#20274f"/>
+      <mj-class name="bgB+2" background-color="#20274f"/>
+    </mj-attributes>
+    <mj-breakpoint width="480px"></mj-breakpoint>
+    <mj-style>
+      .ombre{
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2) !important;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f1f0f0" width="700px">
+    <mj-section padding="0">
+      <mj-column>
+        <mj-text align="center"><a style="color:#4d4d4d;font-size:10px;font-weight:500;line-height:12px" href="{{ mirror}}">Voir la version en ligne</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a style="color:#4d4d4d;font-size:10px;font-weight:500;line-height:12px;" href="{{ unsubscribe }}">Se désinscrire de la liste de diffusion</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="bgW">
+      <mj-column width="33.333333%" padding="10px">
+        <mj-image padding="0" src="./images/prod1.jpg"/>
+        <mj-text padding="0" align="center">Routeur Mobile 4G/5G</mj-text>
+        <mj-text padding="0" align="center">3.2 Gbit/s (MR5200)</mj-text>
+        <mj-text padding="0" align="center">799.99&nbsp;€</mj-text>
+        <mj-button href="#">j'en profite</mj-button>
+      </mj-column>
+      <mj-column width="33.333333%" padding="10px">
+        <mj-image padding="0" src="./images/prod2.jpg"/>
+        <mj-text padding="0" align="center">Routeur Mobile 4G</mj-text>
+        <mj-text padding="0" align="center">2 Gbit/s (MR2100)</mj-text>
+        <mj-text padding="0" align="center">429.99&nbsp;€ 379.99&nbsp;€</mj-text>
+        <mj-button href="#">j'en profite</mj-button>
+      </mj-column>
+      <mj-column width="33.333333%" padding="10px">
+        <mj-image padding="0" src="./images/prod3.jpg"/>
+        <mj-text padding="0" align="center">Routeur Mobile 4G/4G</mj-text>
+        <mj-text padding="0" align="center">1 Gbit/s (MR1100)</mj-text>
+        <mj-text padding="0" align="center"> 309.99&nbsp;€ 279.99&nbsp;€</mj-text>
+        <mj-button href="#">j'en profite</mj-button>
+      </mj-column>
+      <mj-column width="33.333333%" padding="10px">
+        <mj-image padding="0" src="./images/prod4.jpg"/>
+        <mj-text padding="0" align="center">Hotspot Mobile 4G</mj-text>
+        <mj-text padding="0" align="center">600 Mbps (AC810)</mj-text>
+        <mj-text padding="0" align="center"> 219.99&nbsp;€ 186.99&nbsp;€</mj-text>
+        <mj-button href="#">j'en profite</mj-button>
+      </mj-column>
+      <mj-column width="33.333333%" padding="10px">
+        <mj-image padding="0" src="./images/prod5.jpg"/>
+        <mj-text padding="0" align="center">Hotspot Mobile 4G</mj-text>
+        <mj-text padding="0" align="center">400 Mbps (AC797)</mj-text>
+        <mj-text padding="0" align="center"> 179.99&nbsp;€ 149.99&nbsp;€</mj-text>
+        <mj-button href="#">j'en profite</mj-button>
+      </mj-column>
+      <mj-column width="33.333333%" padding="10px">
+        <mj-image padding="0" src="./images/prod6.jpg"/>
+        <mj-text padding="0" align="center">Modem 4G</mj-text>
+        <mj-text padding="0" align="center">150 Mbps (LB2120)</mj-text>
+        <mj-text padding="0" align="center"> 149.99&nbsp;€ 119.99&nbsp;€</mj-text>
+        <mj-button href="#">j'en profite</mj-button>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
