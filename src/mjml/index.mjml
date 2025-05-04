@@ -19,14 +19,14 @@
       <mj-class name="T24-700" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="24px" line-height="28px" font-weight="700"/>
       <mj-class name="T20-500" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="20px" line-height="35px" font-weight="500"/>
       <mj-class name="T17-500" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="18px" line-height="25px" font-weight="500"/>
-      <mj-class name="T16-700" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="700"/>
+      <mj-class name="T15-500" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="15px" line-height="22px" font-weight="500"/>
       <mj-class name="T16-500" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="500"/>
       <mj-class name="T16-400" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="400"/>
       <mj-class name="T13-700" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="13px" line-height="17px" font-weight="700"/>
       <mj-class name="T13-400" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="13px" line-height="17px" font-weight="400"/>
       <mj-class name="T10-300" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="10px" line-height="12px" font-weight="300"/>
       <mj-class name="cT1" color="#1a1a1a"/>
-      <mj-class name="cT0" color="#4d4d4d"/>
+      <mj-class name="cT0" color="#000000"/>
       <mj-class name="cTW" color="#ffffff"/>
       <mj-class name="bgW" background-color="#ffffff"/>
       <mj-class name="cB0" color="#1f3c90"/>
@@ -62,41 +62,41 @@
     </mj-section>
     <mj-section mj-class="bgW" padding="15px 25px">
       <mj-column border="0.5px solid #cecece" padding="10px">
-        <mj-text align="center" padding="0" padding-bottom="20px" mj-class="T20-500" letter-spacing=".5px"><strong>Pour profiter d'un WiFi rapide où que vous soyez&nbsp;!</strong></mj-text>
-        <mj-text align="center" padding="0" padding-bottom="20px" mj-class="T17-500" letter-spacing=".5px">Vous êtes <strong>propriétaire d'une maison de vacances, en voyage ou travailleur nomade,</strong> et vous avez besoin d'un WiFi rapide, où que vous soyez&nbsp;?</mj-text>
-        <mj-text align="center" padding="0" mj-class="T17-500" letter-spacing=".5px">Découvrez <strong>les 5 avantages d'un Routeur mobile 4G/5G</strong> et profitez dès maintenant du <strong>code promo «&nbsp;MOB10&nbsp;»</strong>.</mj-text>
+        <mj-text align="center" padding="0" padding-bottom="20px" mj-class="T20-500 cT0" letter-spacing=".5px"><strong>Pour profiter d'un WiFi rapide où que vous soyez&nbsp;!</strong></mj-text>
+        <mj-text align="center" padding="0" padding-bottom="20px" mj-class="T17-500 cT0" letter-spacing=".5px">Vous êtes <strong>propriétaire d'une maison de vacances, en voyage ou travailleur nomade,</strong> et vous avez besoin d'un WiFi rapide, où que vous soyez&nbsp;?</mj-text>
+        <mj-text align="center" padding="0" mj-class="T17-500 cT0" letter-spacing=".5px">Découvrez <strong>les 5 avantages d'un Routeur mobile 4G/5G</strong> et profitez dès maintenant du <strong>code promo «&nbsp;MOB10&nbsp;»</strong>.</mj-text>
       </mj-column>
     </mj-section>
     <mj-section mj-class="bgW">
       <mj-column width="50%" padding="10px">
-        <mj-image padding="0" src="./images/arg1.jpg"/>
-        <mj-text padding="0" align="center">Avantage n°1</mj-text>
-        <mj-text padding="0" align="center">Une connexion n'importe où</mj-text>
-        <mj-text padding="0" align="center">En maison de campagne, à la plage, en montagne ou à l'étranger, bénéficiez d'une connexion WiFi rapide en 4G ou 5G (selon modèle), en insérant la carte SIM de votre opérateur.</mj-text>
+        <mj-image padding="0" padding-bottom="10px" src="./images/arg1.jpg"/>
+        <mj-text padding="0" align="center" mj-class="T15-500 cT0" letter-spacing=".5px"><strong>Avantage n°1</strong></mj-text>
+        <mj-text padding="0" align="center" mj-class="T15-500 cT0" letter-spacing=".5px"><strong>Une connexion n'importe où</strong></mj-text>
+        <mj-text padding="0" padding-bottom="20px" align="center" mj-class="T15-500 cT0" letter-spacing=".5px">En maison de campagne, à la plage, en montagne ou à l'étranger, bénéficiez d'une connexion WiFi rapide en 4G ou 5G (selon modèle), en insérant la carte SIM de votre opérateur.</mj-text>
       </mj-column>
       <mj-column width="50%" padding="10px">
-        <mj-image padding="0" src="./images/arg2.jpg"/>
-        <mj-text padding="0" align="center">Avantage n°2</mj-text>
-        <mj-text padding="0" align="center">Partagez avec plusieurs appareils</mj-text>
-        <mj-text padding="0" align="center">Oubliez le partage de connexion sur votre mobile ! Connectez jusqu'à 32 appareils avec un WiFi rapide pour permettre aux membres de votre famille de streamer, naviguer et consulter leurs mails.</mj-text>
+        <mj-image padding="0" padding-bottom="10px" src="./images/arg2.jpg"/>
+        <mj-text padding="0" align="center" mj-class="T15-500 cT0" letter-spacing=".5px"><strong>Avantage n°2</strong></mj-text>
+        <mj-text padding="0" align="center" mj-class="T15-500 cT0" letter-spacing=".5px"><strong>Partagez avec plusieurs appareils</strong></mj-text>
+        <mj-text padding="0" padding-bottom="20px" align="center" mj-class="T15-500 cT0" letter-spacing=".5px">Oubliez le partage de connexion sur votre mobile&nbsp;! Connectez jusqu'à 32 appareils avec un WiFi rapide pour permettre aux membres de votre famille de streamer, naviguer et consulter leurs mails.</mj-text>
       </mj-column>
       <mj-column width="33.333333%" padding="10px">
-        <mj-image padding="0" src="./images/arg3.jpg"/>
-        <mj-text padding="0" align="center">Avantage n°4 :</mj-text>
-        <mj-text padding="0" align="center">Autonomie de la batterie</mj-text>
-        <mj-text padding="0" align="center">Jusqu'à 13 h d'autonomie : la batterie rechargeable vous permet de rester connecter pendant toute une journée, où que vous soyez.</mj-text>
+        <mj-image padding="0" padding-bottom="10px" src="./images/arg3.jpg"/>
+        <mj-text padding="0" align="center" mj-class="T15-500 cT0" letter-spacing=".5px"><strong>Avantage n°3</strong></mj-text>
+        <mj-text padding="0" align="center" mj-class="T15-500 cT0" letter-spacing=".5px"><strong>Autonomie de la batterie</strong></mj-text>
+        <mj-text padding="0" padding-bottom="20px" align="center" mj-class="T15-500 cT0" letter-spacing=".5px">Jusqu'à 13&nbsp;h d'autonomie&nbsp;: la batterie rechargeable vous permet de rester connecter pendant toute une journée, où que vous soyez.</mj-text>
       </mj-column>
       <mj-column width="33.333333%" padding="10px">
-        <mj-image padding="0" src="./images/arg4.jpg"/>
-        <mj-text padding="0" align="center">Avantage n°5 :</mj-text>
-        <mj-text padding="0" align="center">Sécurité</mj-text>
-        <mj-text padding="0" align="center">Le Routeur Mobile vous permet d'éviter les risques du WiFi public grâce à votre mot de passe et au contrôle d'accès.</mj-text>
+        <mj-image padding="0" padding-bottom="10px" src="./images/arg4.jpg"/>
+        <mj-text padding="0" align="center" mj-class="T15-500 cT0" letter-spacing=".5px"><strong>Avantage n°4</strong></mj-text>
+        <mj-text padding="0" align="center" mj-class="T15-500 cT0" letter-spacing=".5px"><strong>Sécurité</strong></mj-text>
+        <mj-text padding="0" padding-bottom="20px" align="center" mj-class="T15-500 cT0" letter-spacing=".5px">Le Routeur Mobile vous permet d'éviter les risques du WiFi public grâce à votre mot de passe et au contrôle d'accès.</mj-text>
       </mj-column>
       <mj-column width="33.333333%" padding="10px">
-        <mj-image padding="0" src="./images/arg5.jpg"/>
-        <mj-text padding="0" align="center">Avantage n°6 :</mj-text>
-        <mj-text padding="0" align="center">Pratique</mj-text>
-        <mj-text padding="0" align="center">Pratique et intuitive, l'application mobile NETGEAR vous permet de surveiller votre forfait, de sécuriser votre accès internet et bien plus encore.</mj-text>
+        <mj-image padding="0" padding-bottom="10px" src="./images/arg5.jpg"/>
+        <mj-text padding="0" align="center" mj-class="T15-500 cT0" letter-spacing=".5px"><strong>Avantage n°5</strong></mj-text>
+        <mj-text padding="0" align="center" mj-class="T15-500 cT0" letter-spacing=".5px"><strong>Pratique</strong></mj-text>
+        <mj-text padding="0" padding-bottom="20px" align="center" mj-class="T15-500 cT0" letter-spacing=".5px">Pratique et intuitive, l'application mobile NETGEAR vous permet de surveiller votre forfait, de sécuriser votre accès internet et bien plus encore.</mj-text>
       </mj-column>
     </mj-section>
     <mj-section mj-class="bgW">
