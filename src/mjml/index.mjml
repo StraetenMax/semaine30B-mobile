@@ -17,8 +17,8 @@
       <mj-all font-family="Roboto, Arial, Helvetica,sans serif"/>
       <mj-class name="T36-900" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="36px" line-height="36px" font-weight="900"/>
       <mj-class name="T24-700" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="24px" line-height="28px" font-weight="700"/>
-      <mj-class name="T24-300" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="24px" line-height="28px" font-weight="300"/>
-      <mj-class name="T18-700" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="18px" line-height="22px" font-weight="700"/>
+      <mj-class name="T20-500" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="20px" line-height="35px" font-weight="500"/>
+      <mj-class name="T17-500" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="18px" line-height="25px" font-weight="500"/>
       <mj-class name="T16-700" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="700"/>
       <mj-class name="T16-500" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="500"/>
       <mj-class name="T16-400" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="400"/>
@@ -54,13 +54,17 @@
         <mj-text>version en ligne</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section>
+    <mj-section padding="0">
       <mj-column width="100%">
         <mj-text>Découvrez les 5 avantages d'un Routeur Mobile 4G/5G en vacances</mj-text>
         <mj-image padding="0" width="700px" src="./images/header.jpg"/>
-        <mj-text align="center">Pour profiter d'un WiFi rapide où que vous soyez ! </mj-text>
-        <mj-text align="center">Vous êtes propriétaire d'une maison de vacances, en voyage ou travailleur nomade, et vous avez besoin d'un WiFi rapide, où que vous soyez ?</mj-text>
-        <mj-text align="center">Découvrez les 5 avantages d'un Routeur mobile 4G/5G et profitez dès maintenant du code promo « MOB10 ».</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="bgW" padding="15px 25px">
+      <mj-column border="0.5px solid #cecece" padding="10px">
+        <mj-text align="center" padding="0" padding-bottom="20px" mj-class="T20-500" letter-spacing=".5px"><strong>Pour profiter d'un WiFi rapide où que vous soyez&nbsp;!</strong></mj-text>
+        <mj-text align="center" padding="0" padding-bottom="20px" mj-class="T17-500" letter-spacing=".5px">Vous êtes <strong>propriétaire d'une maison de vacances, en voyage ou travailleur nomade,</strong> et vous avez besoin d'un WiFi rapide, où que vous soyez&nbsp;?</mj-text>
+        <mj-text align="center" padding="0" mj-class="T17-500" letter-spacing=".5px">Découvrez <strong>les 5 avantages d'un Routeur mobile 4G/5G</strong> et profitez dès maintenant du <strong>code promo «&nbsp;MOB10&nbsp;»</strong>.</mj-text>
       </mj-column>
     </mj-section>
     <mj-section mj-class="bgW">
@@ -148,14 +152,14 @@
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-image src="./images/netgearblack.png"></mj-image>
+        <mj-image src="./images/netgearBlack.png"></mj-image>
       </mj-column>
       <mj-column>
         <mj-social>
           <mj-social-element src="./images/facebook.png"></mj-social-element>
           <mj-social-element src="./images/instagram.png"></mj-social-element>
           <mj-social-element src="./images/twitter.png"></mj-social-element>
-          <mj-social-element src="./images/youtube                                                                         .png"></mj-social-element>
+          <mj-social-element src="./images/youtube.png"></mj-social-element>
         </mj-social>
       </mj-column>
     </mj-section>
