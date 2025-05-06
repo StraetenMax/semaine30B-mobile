@@ -2,7 +2,7 @@
 <mjml>
   <mj-head>
     <mj-title>semaine 30B mobilité</mj-title>
-    <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&amp;display=swap"></mj-font>
+    <mj-font name="Source Sans 3" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&amp;display=swap"></mj-font>
     <mj-font name="fontAwesome" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
     <mj-raw>
       <meta charset="UTF-8">
@@ -16,7 +16,7 @@
     <mj-attributes>
       <mj-all font-family="Roboto, Arial, Helvetica,sans serif"/>
       <mj-class name="T36-900" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="36px" line-height="36px" font-weight="900"/>
-      <mj-class name="T24-700" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="24px" line-height="28px" font-weight="700"/>
+      <mj-class name="T30-300" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="30px" line-height="40px" font-weight="300"/>
       <mj-class name="T20-500" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="20px" line-height="35px" font-weight="500"/>
       <mj-class name="T17-500" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="18px" line-height="25px" font-weight="500"/>
       <mj-class name="T15-500" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="15px" line-height="22px" font-weight="500"/>
@@ -47,17 +47,25 @@
     </mj-style>
   </mj-head>
   <mj-body background-color="#f1f0f0" width="700px">
-    <mj-section padding="0">
-      <mj-column>
-        <mj-image src="./images/netgearWhite.png"></mj-image>
+    <mj-section padding="24px 30px" mj-class="bgT1">
+      <mj-group>
+        <mj-column vertical-align="top">
+          <mj-image align="left" padding="0" width="130px" src="./images/netgearWhite.png"></mj-image>
+        </mj-column>
+        <mj-column>
+          <mj-text align="right">version en ligne</mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section mj-class="bgT1" padding="0">
+      <mj-column width="6%" padding="10px"></mj-column>
+      <mj-column width="88%" padding="10px">
+        <mj-text padding="10px 0" align="center" mj-class="T30-300 cTW" letter-spacing="2px">Découvrez les 5 avantages d'un Routeur Mobile 4G/5G en vacances</mj-text>
       </mj-column>
-      <mj-column>
-        <mj-text>version en ligne</mj-text>
-      </mj-column>
+      <mj-column width="6%" padding="10px"></mj-column>
     </mj-section>
     <mj-section padding="0">
-      <mj-column width="100%">
-        <mj-text>Découvrez les 5 avantages d'un Routeur Mobile 4G/5G en vacances</mj-text>
+      <mj-column width="100%"> 
         <mj-image padding="0" width="700px" src="./images/header.jpg"/>
       </mj-column>
     </mj-section>
@@ -106,42 +114,42 @@
         <mj-text padding="0" align="center" mj-class="T17-500" letter-spacing="0.5px">Routeur Mobile 4G/5G</mj-text>
         <mj-text padding="0" align="center" mj-class="T17-500" letter-spacing="0.5px"><strong>3.2 Gbit/s</strong> (MR5200)</mj-text>
         <mj-text padding="0" padding-bottom="20px" align="center" mj-class="T17-500" letter-spacing="0.5px"><strong style="color:#2d72fe">799.99&nbsp;€</strong></mj-text>
-        <mj-button padding="0" inner-padding="10px 45px" border-radius="20px" mj-class="T16-500 bgT1 cTW" text-transform="uppercase" letter-spacing="1px" href="#"><strong>j'en profite</strong></mj-button>
+        <mj-button padding="0" inner-padding="10px 45px" border-radius="20px" mj-class="T16-500 bgT1 cTW" text-transform="uppercase" href="#"><strong>j'en profite</strong></mj-button>
       </mj-column>
       <mj-column width="33.333333%" padding="10px">
         <mj-image padding="0" src="./images/prod2.jpg"/>
         <mj-text padding="0" align="center" mj-class="T17-500" letter-spacing="0.5px">Routeur Mobile 4G</mj-text>
         <mj-text padding="0" align="center" mj-class="T17-500" letter-spacing="0.5px"><strong>2 Gbit/s</strong> (MR2100)</mj-text>
         <mj-text padding="0" padding-bottom="20px" align="center" mj-class="T17-500" letter-spacing="0.5px"><span style="color:#ff0000;text-decoration:line-through;">429.99&nbsp;€</span> <strong style="color:#2d72fe;">379.99&nbsp;€</strong></mj-text>
-        <mj-button padding="0" inner-padding="10px 45px" border-radius="20px" mj-class="T16-500 bgT1 cTW" text-transform="uppercase" letter-spacing="1px" href="#"><strong>j'en profite</strong></mj-button>
+        <mj-button padding="0" inner-padding="10px 45px" border-radius="20px" mj-class="T16-500 bgT1 cTW" text-transform="uppercase" href="#"><strong>j'en profite</strong></mj-button>
       </mj-column>
       <mj-column width="33.333333%" padding="10px">
         <mj-image padding="0" src="./images/prod3.jpg"/>
         <mj-text padding="0" align="center" mj-class="T17-500" letter-spacing="0.5px">Routeur Mobile 4G/4G</mj-text>
         <mj-text padding="0" align="center" mj-class="T17-500" letter-spacing="0.5px"><strong>1 Gbit/s</strong> (MR1100)</mj-text>
         <mj-text padding="0" padding-bottom="20px" align="center" mj-class="T17-500" letter-spacing="0.5px"><span style="color:#ff0000;text-decoration:line-through;">309.99&nbsp;€</span> <strong style="color:#2d72fe;">279.99&nbsp;€</strong></mj-text>
-        <mj-button padding="0" inner-padding="10px 45px" border-radius="20px" mj-class="T16-500 bgT1 cTW" text-transform="uppercase" letter-spacing="1px" href="#"><strong>j'en profite</strong></mj-button>
+        <mj-button padding="0" inner-padding="10px 45px" border-radius="20px" mj-class="T16-500 bgT1 cTW" text-transform="uppercase" href="#"><strong>j'en profite</strong></mj-button>
       </mj-column>
       <mj-column width="33.333333%" padding="10px">
         <mj-image padding="0" src="./images/prod4.jpg"/>
         <mj-text padding="0" align="center" mj-class="T17-500" letter-spacing="0.5px">Hotspot Mobile 4G</mj-text>
         <mj-text padding="0" align="center" mj-class="T17-500" letter-spacing="0.5px"><strong>600 Mbps</strong> (AC810)</mj-text>
         <mj-text padding="0" padding-bottom="20px" align="center" mj-class="T17-500" letter-spacing="0.5px"><span style="color:#ff0000;text-decoration:line-through;">219.99&nbsp;€</span> <strong style="color:#2d72fe;">186.99&nbsp;€</strong></mj-text>
-        <mj-button padding="0" inner-padding="10px 45px" border-radius="20px" mj-class="T16-500 bgT1 cTW" text-transform="uppercase" letter-spacing="1px" href="#"><strong>j'en profite</strong></mj-button>
+        <mj-button padding="0" inner-padding="10px 45px" border-radius="20px" mj-class="T16-500 bgT1 cTW" text-transform="uppercase" href="#"><strong>j'en profite</strong></mj-button>
       </mj-column>
       <mj-column width="33.333333%" padding="10px">
         <mj-image padding="0" src="./images/prod5.jpg"/>
         <mj-text padding="0" align="center" mj-class="T17-500" letter-spacing="0.5px">Hotspot Mobile 4G</mj-text>
         <mj-text padding="0" align="center" mj-class="T17-500" letter-spacing="0.5px"><strong>400 Mbps</strong> (AC797)</mj-text>
         <mj-text padding="0" padding-bottom="20px" align="center" mj-class="T17-500" letter-spacing="0.5px"><span style="color:#ff0000;text-decoration:line-through;">179.99&nbsp;€</span> <strong style="color:#2d72fe;">149.99&nbsp;€</strong></mj-text>
-        <mj-button padding="0" inner-padding="10px 45px" border-radius="20px" mj-class="T16-500 bgT1 cTW" text-transform="uppercase" letter-spacing="1px" href="#"><strong>j'en profite</strong></mj-button>
+        <mj-button padding="0" inner-padding="10px 45px" border-radius="20px" mj-class="T16-500 bgT1 cTW" text-transform="uppercase" href="#"><strong>j'en profite</strong></mj-button>
       </mj-column>
       <mj-column width="33.333333%" padding="10px">
         <mj-image padding="0" src="./images/prod6.jpg"/>
         <mj-text padding="0" align="center" mj-class="T17-500" letter-spacing="0.5px">Modem 4G</mj-text>
         <mj-text padding="0" align="center" mj-class="T17-500" letter-spacing="0.5px"><strong>150 Mbps</strong> (LB2120)</mj-text>
         <mj-text padding="0" padding-bottom="20px" align="center" mj-class="T17-500" letter-spacing="0.5px"> <span style="color:#ff0000;text-decoration:line-through;">149.99&nbsp;€</span> <strong style="color:#2d72fe;">119.99&nbsp;€</strong></mj-text>
-        <mj-button padding="0" inner-padding="10px 45px" border-radius="20px" mj-class="T16-500 bgT1 cTW" text-transform="uppercase" letter-spacing="1px" href="#"><strong>j'en profite</strong></mj-button>
+        <mj-button padding="0" inner-padding="10px 45px" border-radius="20px" mj-class="T16-500 bgT1 cTW" text-transform="uppercase" href="#"><strong>j'en profite</strong></mj-button>
       </mj-column>
     </mj-section>
     <mj-section>

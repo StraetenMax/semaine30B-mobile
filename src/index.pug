@@ -1,7 +1,8 @@
 extends templates/_layout
 block content 
-    mj-section(padding="0")
-        mj-column
-            mj-image(src="./images/netgearWhite.png")
-        mj-column
-            mj-text() version en ligne
+    mj-section(padding="24px 30px" mj-class="bgT1")
+        mj-group
+            mj-column(vertical-align="top")
+                mj-image(align="left" padding="0" width="130px" src="./images/netgearWhite.png")
+            mj-column
+                mj-text(align="right") version en ligne
