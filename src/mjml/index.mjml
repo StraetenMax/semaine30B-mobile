@@ -43,7 +43,7 @@
     <mj-section padding="24px 30px" mj-class="bgT1">
       <mj-group>
         <mj-column vertical-align="middle">
-          <mj-image align="left" padding="0" width="130px" src="./images/netgearWhite.png"></mj-image>
+          <mj-image align="left" padding="0" width="130px" src="./images/netgearWhite.png" alt="logo Netgear en noir"/>
         </mj-column>
         <mj-column vertical-align="middle">
           <mj-text align="right" padding="0" mj-class="T9-400" color="#ababab" text-transform="uppercase" letter-spacing="2px"><a style="text-decoration:none;color:#ababab;" href="#">version en ligne&nbsp;&#x23f5;</a></mj-text>
@@ -59,7 +59,7 @@
     </mj-section>
     <mj-section padding="0">
       <mj-column width="100%"> 
-        <mj-image padding="0" width="700px" src="./images/header.jpg"/>
+        <mj-image padding="0" width="700px" src="./images/header.jpg" alt="Femme dans sa piscine entrain de consulter son ordinateur grâce à un routeur mobile 4G/5G"/>
       </mj-column>
     </mj-section>
     <mj-section mj-class="bgW" padding="15px 25px">
@@ -71,31 +71,31 @@
     </mj-section>
     <mj-section mj-class="bgW">
       <mj-column width="50%" padding="10px">
-        <mj-image padding="0" padding-bottom="10px" fluid-on-mobile="true" src="./images/arg1.jpg"/>
+        <mj-image padding="0" padding-bottom="10px" width="458px" fluid-on-mobile="true" src="./images/arg1.jpg" alt="Une personne travaille en pleine nature grâce à un routeur mobile 4G/5G"/>
         <mj-text padding="0" align="center" mj-class="T15-500 cT0" letter-spacing=".5px"><strong>Avantage n°1</strong></mj-text>
         <mj-text padding="0" align="center" mj-class="T15-500 cT0" letter-spacing=".5px"><strong>Une connexion n'importe où</strong></mj-text>
         <mj-text padding="0" padding-bottom="20px" align="center" mj-class="T15-500 cT0" letter-spacing=".5px">En maison de campagne, à la plage, en montagne ou à l'étranger, bénéficiez d'une connexion WiFi rapide en 4G ou 5G (selon modèle), en insérant la carte SIM de votre opérateur.</mj-text>
       </mj-column>
       <mj-column width="50%" padding="10px">
-        <mj-image padding="0" padding-bottom="10px" fluid-on-mobile="true" src="./images/arg2.jpg"/>
+        <mj-image padding="0" padding-bottom="10px" width="458px" fluid-on-mobile="true" src="./images/arg2.jpg" alt="Plusieurs appareils sont connectés au routeur mobile 4G/5G"/>
         <mj-text padding="0" align="center" mj-class="T15-500 cT0" letter-spacing=".5px"><strong>Avantage n°2</strong></mj-text>
         <mj-text padding="0" align="center" mj-class="T15-500 cT0" letter-spacing=".5px"><strong>Partagez avec plusieurs appareils</strong></mj-text>
         <mj-text padding="0" padding-bottom="20px" align="center" mj-class="T15-500 cT0" letter-spacing=".5px">Oubliez le partage de connexion sur votre mobile&nbsp;! Connectez jusqu'à 32 appareils avec un WiFi rapide pour permettre aux membres de votre famille de streamer, naviguer et consulter leurs mails.</mj-text>
       </mj-column>
       <mj-column width="33.333333%" padding="10px">
-        <mj-image padding="0" padding-bottom="10px" fluid-on-mobile="true" src="./images/arg3.jpg"/>
+        <mj-image padding="0" padding-bottom="10px" width="458px" fluid-on-mobile="true" src="./images/arg3.jpg" alt="Jusqu'à 13h d'autonomie avec le routeur mobile 4G/5G"/>
         <mj-text padding="0" align="center" mj-class="T15-500 cT0" letter-spacing=".5px"><strong>Avantage n°3</strong></mj-text>
         <mj-text padding="0" align="center" mj-class="T15-500 cT0" letter-spacing=".5px"><strong>Autonomie de la batterie</strong></mj-text>
         <mj-text padding="0" padding-bottom="20px" align="center" mj-class="T15-500 cT0" letter-spacing=".5px">Jusqu'à 13&nbsp;h d'autonomie&nbsp;: la batterie rechargeable vous permet de rester connecter pendant toute une journée, où que vous soyez.</mj-text>
       </mj-column>
       <mj-column width="33.333333%" padding="10px">
-        <mj-image padding="0" padding-bottom="10px" fluid-on-mobile="true" src="./images/arg4.jpg"/>
+        <mj-image padding="0" padding-bottom="10px" width="458px" fluid-on-mobile="true" src="./images/arg4.jpg" alt="Sécurité du routeur mobile qui protège votre vie privé"/>
         <mj-text padding="0" align="center" mj-class="T15-500 cT0" letter-spacing=".5px"><strong>Avantage n°4</strong></mj-text>
         <mj-text padding="0" align="center" mj-class="T15-500 cT0" letter-spacing=".5px"><strong>Sécurité</strong></mj-text>
         <mj-text padding="0" padding-bottom="20px" align="center" mj-class="T15-500 cT0" letter-spacing=".5px">Le Routeur Mobile vous permet d'éviter les risques du WiFi public grâce à votre mot de passe et au contrôle d'accès.</mj-text>
       </mj-column>
       <mj-column width="33.333333%" padding="10px">
-        <mj-image padding="0" padding-bottom="10px" fluid-on-mobile="true" src="./images/arg5.jpg"/>
+        <mj-image padding="0" padding-bottom="10px" width="458px" fluid-on-mobile="true" src="./images/arg5.jpg" alt="application mobile NetGear pour gérer votre routeur mobile"/>
         <mj-text padding="0" align="center" mj-class="T15-500 cT0" letter-spacing=".5px"><strong>Avantage n°5</strong></mj-text>
         <mj-text padding="0" align="center" mj-class="T15-500 cT0" letter-spacing=".5px"><strong>Pratique</strong></mj-text>
         <mj-text padding="0" padding-bottom="20px" align="center" mj-class="T15-500 cT0" letter-spacing=".5px">Pratique et intuitive, l'application mobile NETGEAR vous permet de surveiller votre forfait, de sécuriser votre accès internet et bien plus encore.</mj-text>
@@ -103,21 +103,21 @@
     </mj-section>
     <mj-section mj-class="bgW">
       <mj-column width="33.333333%" padding="10px">
-        <mj-image padding="0" fluid-on-mobile="true" src="./images/prod1.jpg"/>
+        <mj-image padding="0" width="458px" fluid-on-mobile="true" src="./images/prod1.jpg" alt="Routeur Mobile 4G/5G"/>
         <mj-text padding="0" align="center" mj-class="T17-500" letter-spacing="0.5px">Routeur Mobile 4G/5G</mj-text>
         <mj-text padding="0" align="center" mj-class="T17-500" letter-spacing="0.5px"><strong>3.2 Gbit/s</strong> (MR5200)</mj-text>
         <mj-text padding="0" padding-bottom="20px" align="center" mj-class="T17-500" letter-spacing="0.5px"><strong style="color:#2d72fe">799.99&nbsp;€</strong></mj-text>
         <mj-button padding="0" inner-padding="10px 45px" border-radius="20px" mj-class="T16-500 bgT1 cTW" text-transform="uppercase" href="#"><strong>j'en profite</strong></mj-button>
       </mj-column>
       <mj-column width="33.333333%" padding="10px">
-        <mj-image padding="0" fluid-on-mobile="true" src="./images/prod2.jpg"/>
+        <mj-image padding="0" width="458px" fluid-on-mobile="true" src="./images/prod2.jpg" alt="Routeur Mobile 4G"/>
         <mj-text padding="0" align="center" mj-class="T17-500" letter-spacing="0.5px">Routeur Mobile 4G</mj-text>
         <mj-text padding="0" align="center" mj-class="T17-500" letter-spacing="0.5px"><strong>2 Gbit/s</strong> (MR2100)</mj-text>
         <mj-text padding="0" padding-bottom="20px" align="center" mj-class="T17-500" letter-spacing="0.5px"><span style="color:#ff0000;text-decoration:line-through;">429.99&nbsp;€</span> <strong style="color:#2d72fe;">379.99&nbsp;€</strong></mj-text>
         <mj-button padding="0" inner-padding="10px 45px" border-radius="20px" mj-class="T16-500 bgT1 cTW" text-transform="uppercase" href="#"><strong>j'en profite</strong></mj-button>
       </mj-column>
       <mj-column width="33.333333%" padding="10px">
-        <mj-image padding="0" fluid-on-mobile="true" src="./images/prod3.jpg"/>
+        <mj-image padding="0" width="458px" fluid-on-mobile="true" src="./images/prod3.jpg" alt="Routeur Mobile 4G/4G"/>
         <mj-text padding="0" align="center" mj-class="T17-500" letter-spacing="0.5px">Routeur Mobile 4G/4G</mj-text>
         <mj-text padding="0" align="center" mj-class="T17-500" letter-spacing="0.5px"><strong>1 Gbit/s</strong> (MR1100)</mj-text>
         <mj-text padding="0" padding-bottom="20px" align="center" mj-class="T17-500" letter-spacing="0.5px"><span style="color:#ff0000;text-decoration:line-through;">309.99&nbsp;€</span> <strong style="color:#2d72fe;">279.99&nbsp;€</strong></mj-text>
@@ -131,14 +131,14 @@
         <mj-button padding="0" inner-padding="10px 45px" border-radius="20px" mj-class="T16-500 bgT1 cTW" text-transform="uppercase" href="#"><strong>j'en profite</strong></mj-button>
       </mj-column>
       <mj-column width="33.333333%" padding="10px">
-        <mj-image padding="0" fluid-on-mobile="true" src="./images/prod5.jpg"/>
+        <mj-image padding="0" width="458px" fluid-on-mobile="true" src="./images/prod5.jpg" alt="Hotspot Mobile 4G"/>
         <mj-text padding="0" align="center" mj-class="T17-500" letter-spacing="0.5px">Hotspot Mobile 4G</mj-text>
         <mj-text padding="0" align="center" mj-class="T17-500" letter-spacing="0.5px"><strong>400 Mbps</strong> (AC797)</mj-text>
         <mj-text padding="0" padding-bottom="20px" align="center" mj-class="T17-500" letter-spacing="0.5px"><span style="color:#ff0000;text-decoration:line-through;">179.99&nbsp;€</span> <strong style="color:#2d72fe;">149.99&nbsp;€</strong></mj-text>
         <mj-button padding="0" inner-padding="10px 45px" border-radius="20px" mj-class="T16-500 bgT1 cTW" text-transform="uppercase" href="#"><strong>j'en profite</strong></mj-button>
       </mj-column>
       <mj-column width="33.333333%" padding="10px">
-        <mj-image padding="0" fluid-on-mobile="true" src="./images/prod6.jpg"/>
+        <mj-image padding="0" width="458px" fluid-on-mobile="true" src="./images/prod6.jpg" alt="Modem 4G"/>
         <mj-text padding="0" align="center" mj-class="T17-500" letter-spacing="0.5px">Modem 4G</mj-text>
         <mj-text padding="0" align="center" mj-class="T17-500" letter-spacing="0.5px"><strong>150 Mbps</strong> (LB2120)</mj-text>
         <mj-text padding="0" padding-bottom="20px" align="center" mj-class="T17-500" letter-spacing="0.5px"> <span style="color:#ff0000;text-decoration:line-through;">149.99&nbsp;€</span> <strong style="color:#2d72fe;">119.99&nbsp;€</strong></mj-text>
@@ -160,15 +160,15 @@
     <mj-wrapper mj-class="bgW" padding="30px 28px 31px">
       <mj-section padding="0" padding-bottom="36px">
         <mj-column width="20%" vertical-align="middle">
-          <mj-image padding="0" width="140px" src="./images/netgearBlack.png"></mj-image>
+          <mj-image padding="0" width="140px" src="./images/netgearBlack.png" alt="logo Netgear de couleur noir"></mj-image>
         </mj-column>
         <mj-column width="50%" vertical-align="middle"></mj-column>
         <mj-column width="30%" vertical-align="middle">
           <mj-social padding="0" icon-size="28px" inner-padding="10px" mode="horizontal">
-            <mj-social-element src="./images/facebook.png"></mj-social-element>
-            <mj-social-element src="./images/instagram.png"></mj-social-element>
-            <mj-social-element src="./images/twitter.png"></mj-social-element>
-            <mj-social-element src="./images/youtube.png"></mj-social-element>
+            <mj-social-element src="./images/facebook.png" href="#" alt="facebook"></mj-social-element>
+            <mj-social-element src="./images/instagram.png" href="#" alt="instagram"></mj-social-element>
+            <mj-social-element src="./images/twitter.png" href="#" alt="twitter"></mj-social-element>
+            <mj-social-element src="./images/youtube.png" href="#" alt="youtube"></mj-social-element>
           </mj-social>
         </mj-column>
       </mj-section>
